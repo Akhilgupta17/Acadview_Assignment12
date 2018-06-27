@@ -2,8 +2,9 @@
 l=[1,2,3]
 print(l[3])
 '''
-#IndexError: list index out of range
+#Erroe :IndexError: list index out of range
 
+#Handled
 l=[1,2,3]
 try:
     print(l[3])

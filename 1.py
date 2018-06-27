@@ -4,8 +4,9 @@ if a<4:
     a=a/(a-3)
     print(a)
 '''
-#ZeroDivisionError: division by zero
+# Error : ZeroDivisionError: division by zero
 
+#Handled
 a=3
 try:
     if a<4:

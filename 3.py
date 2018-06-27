@@ -3,11 +3,10 @@
 try:
     raise NameError("Hi there")  # Raise Error
 except NameError:
-    print "An exception"
+    print ("An exception")
     raise  # To determine whether the exception was raised or not
 
+#output
 
-#output of this
-
-#Syntax Error : for Geeting the output of print keyword we Need Parentheses..
-#thats why its SyntaxError
+#An Exception
+#NameError :Hi There
